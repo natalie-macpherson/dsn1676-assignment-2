@@ -1,0 +1,49 @@
+@-moz-viewpoint {width: divice-width; scale: 1;}
+@-ms-viewpoint {width: divice-width; scale; 1;}
+@-0-viewpoint {width: divice-width; scale; 1;}
+@viewpoint {width: divice-width; scale; 1;}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+body {
+	background-color: black;
+}
+.clock-face {
+	background-image: url("../images/clock-face.svg");
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+
+.hand-hour {
+	width: 14px;
+	position: absolute;
+	bottom: calc(50% - 7px);
+	left: calc(50% - 7px);
+}
+
+.hand-minute {
+	width: 14px;
+	position: absolute;
+	bottom: calc(50% - 7px);
+	left: calc(50% - 7px);
+}
+
+.center {
+	width: 28px;
+	position: absolute;
+	bottom: calc(50% - 14px);
+	left: calc(50% - 14px);
+}
+
