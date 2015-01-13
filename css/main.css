@@ -89,7 +89,6 @@ body {
 	left: calc(50% - 14px);
 }
 
-
 .clock-face:target .hand-hour {
 	transform:rotate(360deg);
 }
